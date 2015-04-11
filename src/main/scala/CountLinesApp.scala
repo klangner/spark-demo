@@ -1,8 +1,8 @@
 import org.apache.spark.{SparkConf, SparkContext}
 
-object CountWordsApp {
+object CountLinesApp {
 
-  val DATA_FILE = "/home/klangner/bin/spark-1.3.0-bin-hadoop2.4/README.md"
+  val DATA_FILE = "data/README.md"
 
   def main(args: Array[String]) {
     val conf = new SparkConf().setAppName("Word Count Application")
